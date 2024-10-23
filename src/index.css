@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply inline-block w-[580px] h-[400px];
+  }
+}
+body {
+  background-color: #f4f6ff;
+}
